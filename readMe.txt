@@ -1,0 +1,1 @@
+The application is still in development, relative file directory management is yet to be updated. Currently works on hard coded-file directories
