@@ -51,7 +51,7 @@ public class HashTable implements Serializable{
 
     public static HashTable getTable(){
         HashTable hash = new HashTable();
-        File file = new File("D:\\EclipseWorkspace\\SustainableOptimization\\HashTable.txt");
+        File file = new File("HashTable.txt");
         try{
             if(file.createNewFile()){
                 System.out.println("File didn't exists but new file has been created");
@@ -80,7 +80,7 @@ public class HashTable implements Serializable{
     }
 
     public static void setTable(HashTable hash) {
-        File file = new File("D:\\EclipseWorkspace\\SustainableOptimization\\HashTable.txt");
+        File file = new File("HashTable.txt");
         try{
             if(file.createNewFile()){
                 System.out.println("Creating new file");
